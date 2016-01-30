@@ -2,13 +2,14 @@ body{
   width: 100%;
   max-width: 100%;
   margin: 0 auto;
+  font-family: sans-serif;
 }
 #navbar{
   width: 100%;
   margin: 0 auto;
   margin-bottom: 0 auto;
   padding-bottom: 0 auto;
-  background-color: #4da5ff;
+  background-color: #1ad1ff;
 }
 nav#navbar ul{
   width: 100%;
@@ -18,11 +19,90 @@ nav#navbar ul{
 }
 nav#navbar ul li{
   float: right;
-  width: 20%;
+  width: 140px;
+  font-size: 12px;
+  padding: 21px;
+  padding-right: 30px;
+  margin: auto 0;
+
 }
 nav#navbar ul li a{
   color:white;
+  text-align: left;
 }
-nav#navbar img{
-  width: 32px;
+nav img{
+  width: 42px;
+}
+h1{
+  text-align: center;
+  font-size: 30px;
+}
+p{
+  text-align: center;
+  font-size: 10px;
+}
+#div1{
+  text-align: center;
+  padding: 20px;
+}
+div#div1 input{
+  border-radius: 4px;
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+#div2{
+  text-align: center;
+  padding: 10px;
+}
+div#div2 input{
+  border-radius: 4px;
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+#div3{
+  text-align: center;
+  padding: 10px;
+}
+div#div3 input{
+  border-radius: 4px;
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+#div4{
+  text-align: center;
+  color: gray;
+  font-size: 12px;
+  padding: 10px;
+}
+div#div4 a{
+  color: blue;
+}
+#divbar{
+  text-align: center;
+}
+div#divbar button{
+  background-color: #00b7e6;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  margin: 15px;
+  height: 40px;
+  width: 400px;
+  font-size: 17px;
+}
+div#divbar p{
+  max-width: 400px;
+  padding-left: 140px;
+  font-size: 12px;
+  text-align: left;
+  color: gray;
+}
+div#divbar p a{
+  color: blue;
 }
