@@ -1,3 +1,28 @@
-nav{
-  background-color: #007fff,#00bfff,#00ffff,#00ffbf;	
+body{
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+#navbar{
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 0 auto;
+  padding-bottom: 0 auto;
+  background-color: #4da5ff;
+}
+nav#navbar ul{
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav#navbar ul li{
+  float: right;
+  width: 20%;
+}
+nav#navbar ul li a{
+  color:white;
+}
+nav#navbar img{
+  width: 32px;
 }
