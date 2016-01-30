@@ -1,10 +1,39 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title> MEAN Template </title>	
+		<title> MEAN Template </title>
 	</head>
+	<link rel="stylesheet" href="styles.css">
 	<body>
-		<!-- Let's fill in some things -->
+		<nav>
+			<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSVC48eQPmXudsUk6dwleAk6G8LLfu6J4T12r6e_jy2dAaMXOD4B4R0bg" alt="Twitter Bid">
+			<ul>
+				<li><a href="#">Language: English</a></li>
+				<li><a href="#">Have an account? Log in</a></li>
+			</ul>
+		</nav>
+		<h1>Join Twitter today.</h1>
+		<form action="/signup" method="POST">
+			<div>
+				<label for="name"></label>
+				<input type="text" id="name" name="name" placeholder="Full name">
+			</div>
+			<div>
+				<label for="Phone or Email"></label>
+				<input type="Phone or Email" id="Phone or Email" name="Phone or Email" placeholder="Phone or Email">
+			</div>
+			<div>
+				<label for="password"></label>
+				<input type="password" id="password" name="password" placeholder="Password">
+			<div>
+				<input type="checkbox" name="checkbox" value="checkbox">Tailor Twitter based on my recent website visits. Learn more.
+			</div>
+			<div>
+				<button type="Submit">Sign up</button>
+			</div>
+			<p>By signing up, you agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>, including <a href="#">Cookie Use</a>. Others will be able to find you by email or phone number when provided.</p>
 
+			<p><a href="#">Advanced options</a></p>
+		</form>
 	</body>
 </html>
