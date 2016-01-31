@@ -9,11 +9,11 @@ body{
   margin: 0 auto;
   margin-bottom: 0 auto;
   padding-bottom: 0 auto;
-  background-color: #1ad1ff;
+  background: #00ccff;
 }
 nav#navbar ul{
-  width: 100%;
   list-style: none;
+  float: right;
   margin: 0;
   padding: 0;
 }
@@ -21,31 +21,41 @@ nav#navbar ul li{
   float: right;
   width: 140px;
   font-size: 12px;
-  padding: 21px;
-  padding-right: 30px;
-  margin: auto 0;
-
+  margin-right: 100px;
+  margin-left: 0 auto;
+  display: inline-block;
+  padding: 15px 20;
+  line-height: 40px;
+  border-color: red;
+  border-width: 3px;
+  border-style: double;
+  text-align: center;
 }
 nav#navbar ul li a{
+  text-decoration: none;
   color:white;
   text-align: left;
 }
+nav#navbar ul li a:hover{
+  color: blue;
+  text-decoration: underline;
+}
 nav img{
+  margin-left: 690px;
   width: 42px;
 }
-h1{
+p{
+  padding-top: 15px;
   text-align: center;
   font-size: 30px;
-}
-p{
-  text-align: center;
-  font-size: 10px;
+  margin-right: 175px;
 }
 #div1{
   text-align: center;
-  padding: 20px;
+  padding: 15px;
 }
 div#div1 input{
+  border-style: groove;
   border-radius: 4px;
   width: 400px;
   height: 40px;
@@ -54,9 +64,10 @@ div#div1 input{
 }
 #div2{
   text-align: center;
-  padding: 10px;
+  padding: 15px;
 }
 div#div2 input{
+  border-style: groove;
   border-radius: 4px;
   width: 400px;
   height: 40px;
@@ -65,9 +76,10 @@ div#div2 input{
 }
 #div3{
   text-align: center;
-  padding: 10px;
+  padding: 15px;
 }
 div#div3 input{
+  border-style: groove;
   border-radius: 4px;
   width: 400px;
   height: 40px;
@@ -76,27 +88,33 @@ div#div3 input{
 }
 #div4{
   text-align: center;
+  margin-right: 70px;
   color: gray;
   font-size: 12px;
   padding: 10px;
 }
 div#div4 a{
   color: blue;
+  text-decoration: none;
+}
+div#div4 a:hover {
+  text-decoration: underline;
 }
 #divbar{
   text-align: center;
 }
 div#divbar button{
-  background-color: #00b7e6;
+  background-color: #1aa3ff;
   border-radius: 5px;
   color: white;
   border: none;
   margin: 15px;
-  height: 40px;
+  height: 45px;
   width: 400px;
   font-size: 17px;
 }
 div#divbar p{
+  margin-left: 340px;
   max-width: 400px;
   padding-left: 140px;
   font-size: 12px;
@@ -104,5 +122,9 @@ div#divbar p{
   color: gray;
 }
 div#divbar p a{
+  text-decoration: none;
   color: blue;
+}
+div#divbar p a:hover {
+  text-decoration: underline;
 }
