@@ -10,6 +10,7 @@ body{
   margin-bottom: 0 auto;
   padding-bottom: 0 auto;
   background: #00ccff;
+  background: linear-gradient(to right,#00ccff 0%, #00ccff 60%, #00cc66 100%)
 }
 nav#navbar ul{
   list-style: none;
@@ -19,17 +20,19 @@ nav#navbar ul{
 }
 nav#navbar ul li{
   float: right;
-  width: 140px;
   font-size: 12px;
-  margin-right: 100px;
-  margin-left: 0 auto;
+  margin-right: 0;
   display: inline-block;
+  border-color: black;
+  border-width: 3px;
+  border-style: none;
+  text-align: center;
   padding: 15px 20;
   line-height: 40px;
-  border-color: red;
-  border-width: 3px;
-  border-style: double;
-  text-align: center;
+  width: 140px;
+}
+#navbar ul li#login{
+  margin-right: 100px;
 }
 nav#navbar ul li a{
   text-decoration: none;
