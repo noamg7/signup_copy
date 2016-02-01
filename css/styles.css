@@ -9,8 +9,8 @@ body{
   margin: 0 auto;
   margin-bottom: 0 auto;
   padding-bottom: 0 auto;
-  background: #00ccff;
-  background: linear-gradient(to right,#00ccff 0%, #00ccff 60%, #00cc66 100%)
+  background: #1aa3ff;
+  background: linear-gradient(to right,#1aa3ff 0%,#1aa3ff 50%, #00cc7a 100%)
 }
 nav#navbar ul{
   list-style: none;
@@ -20,7 +20,7 @@ nav#navbar ul{
 }
 nav#navbar ul li{
   float: right;
-  font-size: 12px;
+  font-size: 13px;
   margin-right: 0;
   display: inline-block;
   border-color: black;
@@ -29,10 +29,10 @@ nav#navbar ul li{
   text-align: center;
   padding: 15px 20;
   line-height: 40px;
-  width: 140px;
+  width: 150px;
 }
 #navbar ul li#login{
-  margin-right: 100px;
+  margin-right: 110px;
 }
 nav#navbar ul li a{
   text-decoration: none;
@@ -40,7 +40,7 @@ nav#navbar ul li a{
   text-align: left;
 }
 nav#navbar ul li a:hover{
-  color: blue;
+  color: #1a8cff;
   text-decoration: underline;
 }
 nav img{
